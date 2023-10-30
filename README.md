@@ -1,5 +1,8 @@
 # KATA SKELETON DAN THE DEV - JAVA VERSION
 
+- Primo Parmiani
+- Emilio Francischetti
+
 ## Instructions
 Complete the function that returns the lyrics for the song 99 Bottles of Beer as an array of strings: each line should be a separate element - see the example at the bottom.
 
