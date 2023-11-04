@@ -12,10 +12,10 @@ public class Song99BottlesTest {
     void shouldSing99Bottles() {
         Song99Bottles song99Bottles = new Song99Bottles();
         
-        ArrayList<String> handle = song99Bottles.sing();
+        ArrayList<String> sing = song99Bottles.sing();
         
         final String expected = "99 bottles of beer on the wall, 99 bottles of beer. Take one down and pass it around, 98 bottles of beer on the wall.\n";
-        assertEquals(1, handle.size());
-        assertEquals(expected, handle.getFirst());
+        assertEquals(1, sing.size());
+        assertEquals(expected, sing.getFirst());
     }
 }
